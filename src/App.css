@@ -20,3 +20,37 @@
 .App-link {
   color: #09d3ac;
 }
+
+button{
+  height: 38px;
+  width:  140px;
+}
+
+nav{
+  background-color: #333333;
+  color: #333333;
+}
+
+a:hover{
+  color: #f5173e !important;
+}
+
+a:visited{
+  color: #ffffff;
+}
+
+.nav-link{
+  color: #ffffff;
+}
+
+.nav-link.active{
+  background-color: #f5173e !important;
+}
+
+#signup{
+  background-color: #f5173e;
+}
+
+#cardCollection{
+  height: calc(100vh - 100px);
+}
