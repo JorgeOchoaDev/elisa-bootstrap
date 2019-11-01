@@ -3,13 +3,20 @@ import React, {Component} from 'react';
 import LightCard from '../components/LightCard'
 import MediaCard from '../components/MediaCard'
 
+import ChatIcon from '../ChatIcon.svg'
+import HealthIcon from '../HealthIcon.svg'
+import PrivacyIcon from '../PrivacyIcon.svg'
+
 class Landing extends Component{
     render(){
         return(
             <div className="container">
                 <div className="row">
                     <div className="col-sm-12 col-lg-6">
-                        <LightCard/>
+                        <LightCard
+                        title="Una red de soporte"
+                        content="Hicimos Elisa para que todos tengan un lugar seguro para informarse, compartir y hablar sobre VIH y SIDA en un entorno seguro y de apoyo"
+                        />
                     </div>
                     <div className="col-sm-12 col-lg-6 py-3">
                         <iframe 
@@ -21,21 +28,27 @@ class Landing extends Component{
                         allowfullscreen>
                         </iframe>
                     </div>
-                    <h2 className="mx-auto mt-5 pt-5">Título</h2>
+                    <h2 className="mx-auto mt-3 pt-3">¿Porqué?</h2>
                     <div className="row my-4">
                         <div className="col-sm12 col-lg-4">
                             <MediaCard
-                            source="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnews.yale.edu%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Ffeatured_media%2Fpublic%2Fhiv-treatment.jpeg%3Fitok%3DRNyJQjnB%26c%3D07307e7d6a991172b9f808eb83b18804&f=1&nofb=1"
+                            title="Pregunta al chatbot"
+                            content="Nuestro chatbot está entrenado para resolver todas las dudas comunes y hasta te puede agendar una cita con un especialista"
+                            source={ChatIcon}
                             />
                         </div>
                         <div className="col-sm12 col-lg-4">
                             <MediaCard
-                            source="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsciworthy.com%2Fwp-content%2Fuploads%2F2018%2F03%2FHIVDRUGS.jpg&f=1&nofb=1"
+                            title="Habla con un experto"
+                            content="Todos los usuarios especialistas pasan por un proceso de revisión donde nos aseguramos que su cédula profesional sea válida y que están calificados para ayudarte"
+                            source={HealthIcon}
                             />
                         </div>
                         <div className="col-sm12 col-lg-4">
                             <MediaCard
-                            source="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fs.newsweek.com%2Fsites%2Fwww.newsweek.com%2Ffiles%2F2016%2F08%2F02%2Ftruvada-pill.jpg&f=1&nofb=1"
+                            title="Comparte Tranquilo"
+                            content="No te vamos a pedir tu nombre, foto, dirección o teléfono. Sólo necesitamos un email para crear tu cuenta"
+                            source={PrivacyIcon}
                             />
                         </div>
                     </div>               

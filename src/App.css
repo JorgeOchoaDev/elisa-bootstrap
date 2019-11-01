@@ -36,6 +36,14 @@ a{
   text-decoration: none !important;
 }
 
+h2{
+  color: #f5173e;
+}
+
+h3{
+  color: #f5173e;
+}
+
 .nav-link.active{
   background-color: #f5173e !important;
 }
