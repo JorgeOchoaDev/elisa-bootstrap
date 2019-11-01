@@ -21,7 +21,7 @@ class Landing extends Component{
                         allowfullscreen>
                         </iframe>
                     </div>
-                    <h2 className="mx-auto mt-5 pt-5">Tratamientos</h2>
+                    <h2 className="mx-auto mt-5 pt-5">Título</h2>
                     <div className="row my-4">
                         <div className="col-sm12 col-lg-4">
                             <MediaCard

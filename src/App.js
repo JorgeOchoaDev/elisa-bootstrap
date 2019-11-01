@@ -20,20 +20,14 @@ class App extends Component {
         <div className="App">
           <Navbar/>
             <Switch>
-              <Route path="/" exact>
-                <Landing/>
+              <Route path="/" component={Landing} exact>
               </Route>
-            </Switch>
-            <Switch>
-                <Route path="/tratamientos">
-                  <Treatments/>
-                </Route>
-                <Route path="/mitos">
-                  <Myths />
-                </Route>
-                <Route path="/cuidados">
-                  <Care />
-                </Route>
+              <Route path="/tratamientos" component={Treatments}>
+              </Route>
+              <Route path="/mitos" component={Myths}>
+              </Route>
+              <Route path="/cuidados" component={Care}>
+              </Route>
             </Switch>
           <BotNav/>
         </div>

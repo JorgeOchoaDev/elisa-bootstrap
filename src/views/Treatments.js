@@ -15,6 +15,8 @@ class Treatments extends Component{
                     <div className="col-12 col-lg-6">
                     <HorizontalCard
                     title="Treatment2"
+                    content="kajsbhbdflknjasñdf"
+                    source="oajsdnflknjaf.jpg"
                     />
                     </div>
                     <div className="col-12 col-lg-6">

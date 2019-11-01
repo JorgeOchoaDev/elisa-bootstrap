@@ -31,21 +31,15 @@ nav{
   color: #333333;
 }
 
-a:hover{
-  color: #f5173e !important;
-}
-
-a:visited{
-  color: #ffffff;
-}
-
-.nav-link{
-  color: #ffffff;
+a{
+  color: #ffffff !important;
+  text-decoration: none !important;
 }
 
 .nav-link.active{
   background-color: #f5173e !important;
 }
+
 
 #signup{
   background-color: #f5173e;
